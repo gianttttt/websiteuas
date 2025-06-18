@@ -1,1 +1,201 @@
-# websiteuas
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Agian Arisandi Sembiring - Biodata & Hobby</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #000;
+    }
+
+    .container {
+      width: 900px;
+      margin: 30px auto;
+      display: flex;
+      background-color: #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    .left-side {
+      width: 35%;
+      background-color: #000;
+      color: #fff;
+      padding: 30px 20px;
+    }
+
+    .left-side img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    .left-side h2, .left-side p {
+      text-align: center;
+    }
+
+    .left-side .section {
+      margin-top: 30px;
+    }
+
+    .left-side .section h3 {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+
+    .left-side ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    .right-side {
+      width: 65%;
+      padding: 30px 25px;
+      background-color: #fff;
+    }
+
+    .right-side h1 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .right-side h4 {
+      margin-top: 5px;
+      font-weight: normal;
+      color: #555;
+    }
+
+    .right-side .section {
+      margin-top: 30px;
+    }
+
+    .section h3 {
+      background-color: #000;
+      color: #fff;
+      display: inline-block;
+      padding: 6px 14px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+    }
+
+    .job {
+      margin-bottom: 15px;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    .job-company {
+      font-style: italic;
+      margin-bottom: 5px;
+    }
+
+    .job-year {
+      float: right;
+      font-weight: bold;
+    }
+
+    .education p {
+      line-height: 1.6;
+    }
+
+    .contact-icon {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .contact-icon span {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-side">
+      <img src="foto-profil.jpg" alt="Foto Profil">
+      <h2>Agian Arisandi Sembiring</h2>
+      <p>Biodata & Hobby</p>
+
+      <div class="section">
+        <h3>Biodata</h3>
+        <p>Nama: Agian Arisandi Sembiring<br>
+        Tempat lahir: Medan, 10 Oktober 2004<br>
+       Universitas: Universitas Pendidikan Ganesha<br>
+        Minat: Musik, Otomotif, Gambar<br>
+        Motto: "Karna hidup bagiku adalah Kristus dan mati adalah keuntungan"</p>
+      </div>
+
+     <div class="section">
+  <h3>Social Media</h3>
+  <div class="contact-icon"> <span><a href="https://www.instagram.com/a.giantt_" target="_blank" style="color:white;">Instagram</a></span></div>
+  <div class="contact-icon"> <span><a href="https://www.facebook.com" target="_blank" style="color:white;">Facebook</a></span></div>
+  <div class="contact-icon"> <span><a href="https://www.tiktok.com/@agiansembiring" target="_blank" style="color:white;">TikTok</a></span></div>
+</div>
+
+
+      <div class="section">
+        <h3>Skills</h3>
+        <ul>
+          <li>Music</li>
+          <li>Mechanical Skill</li>
+          <li>Creativity & Design Thinking</li>
+          <li>Tool Handling & Workshop Safety</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Contact</h3>
+        <p> +62 821-4403-8315<br>
+        agiansembiring@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <h1>Agian Arisandi Sembiring</h1>
+      <h4>Biodata & Hobby</h4>
+
+      <div class="section">
+        <h3>Hobby</h3>
+
+        <div class="job">
+          <div class="job-title">Bermain Gitar <span class="job-year"></span></div>
+          <ul>
+            <li>"Saya suka bermain gitar karena musik adalah media terbaik untuk mengekspresikan perasaan. Saat memetik senar gitar, saya merasa lebih tenang dan bisa meluapkan emosi dengan cara yang positif."</li>
+          
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-title">Otomotif<span class="job-year"></span></div>
+          <ul>
+            <li>“Saya suka otomotif, terutama dalam custom motor, karena di situlah saya bisa menggabungkan kreativitas dan teknik. Merancang motor sesuai gaya dan karakter pribadi memberi kepuasan tersendiri dan rasa bangga saat melihat hasilnya.”</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section education">
+        <h3>Education</h3>
+        <p>Bachelor of Business Administration<br>
+        University name, Any City<br>
+        GPA: 3.8</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
